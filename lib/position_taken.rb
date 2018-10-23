@@ -4,5 +4,5 @@ def position_taken?(board, index)
   # else
   #   true
   # end
-  board[index] != '' || board[index] != ' ' || board[index] != nil
+  board[index] != '' && board[index] != ' ' && board[index] != nil
 end
